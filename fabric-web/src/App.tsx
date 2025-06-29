@@ -4,6 +4,7 @@ import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 function App() {
  
 
@@ -16,7 +17,7 @@ function App() {
             <main>
             <Routes>
                  
-              <h1>pattern & piece</h1>
+             <Route path="/" element={<Home />} />
             </Routes>
             </main>
             <Footer/>
