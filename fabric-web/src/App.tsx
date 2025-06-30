@@ -5,6 +5,7 @@ import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Women from './pages/Women';
 function App() {
  
 
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                  
              <Route path="/" element={<Home />} />
+             <Route path='/women' element={<Women/>} />
             </Routes>
             </main>
             <Footer/>
