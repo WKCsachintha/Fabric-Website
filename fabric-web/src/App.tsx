@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Women from './pages/Women';
 import Men from './pages/Men';
+import Kids from './pages/Kids';
 function App() {
  
 
@@ -22,6 +23,7 @@ function App() {
              <Route path="/" element={<Home />} />
              <Route path='/women' element={<Women/>} />
              <Route path='/Men' element={<Men/>}/>
+             <Route path='/Kids' element={<Kids/>}/>
 
             </Routes>
             </main>
