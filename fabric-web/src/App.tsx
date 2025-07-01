@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Women from './pages/Women';
+import Men from './pages/Men';
 function App() {
  
 
@@ -20,6 +21,8 @@ function App() {
                  
              <Route path="/" element={<Home />} />
              <Route path='/women' element={<Women/>} />
+             <Route path='/Men' element={<Men/>}/>
+
             </Routes>
             </main>
             <Footer/>
