@@ -9,6 +9,7 @@ import Women from './pages/Women';
 import Men from './pages/Men';
 import Kids from './pages/Kids';
 import Sale from './pages/Sale';
+import OurStory from './pages/OurStory';
 function App() {
  
 
@@ -26,6 +27,7 @@ function App() {
              <Route path='/Men' element={<Men/>}/>
              <Route path='/Kids' element={<Kids/>}/>
              <Route path='/sale' element={<Sale/>}/>
+             <Route path='/our-Story' element={<OurStory/>}/>
 
             </Routes>
             </main>
