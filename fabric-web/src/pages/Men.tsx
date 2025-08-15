@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, ShoppingBag, Filter } from 'lucide-react';
 
@@ -13,7 +13,7 @@ import mens2 from '../assets/men-s2.jpg';
 import mens3 from '../assets/men-s3.jpg';
 import menc1 from '../assets/men-c1.jpg';
 import menp1 from '../assets/men-p1.jpg';
-import menp2 from '../assets/men-p2.jpg';
+
 import menp3 from '../assets/men-p3.jpg';
 
 const products = [

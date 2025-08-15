@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Bell, Package, Heart, Tag, Settings, Check, X } from 'lucide-react';
 
 interface Notification {

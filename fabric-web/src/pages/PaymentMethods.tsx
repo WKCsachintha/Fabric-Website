@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { CreditCard, Plus, Edit, Trash2 } from 'lucide-react';
 
 interface PaymentMethod {

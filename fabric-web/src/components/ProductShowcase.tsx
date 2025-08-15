@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Heart, ShoppingBag } from 'lucide-react';
 
 import menf2 from '../assets/men-f2.jpg';

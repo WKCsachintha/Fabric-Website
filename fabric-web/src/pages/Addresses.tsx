@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { MapPin, Plus, Edit, Trash2, Home, Building } from 'lucide-react';
 
 interface Address {

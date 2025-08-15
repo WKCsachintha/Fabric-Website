@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, ShoppingBag, User, Menu, X, Bell } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
@@ -6,7 +6,7 @@ import { useCart } from '../context/CartContext';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { user, logout } = useAuth();
+  const { user, } = useAuth();
   const { totalItems } = useCart();
   const navigate = useNavigate();
 

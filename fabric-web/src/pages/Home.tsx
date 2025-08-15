@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Hero from '../components/Hero';
 import FeaturedCategories from '../components/FeaturedCategories';
 import ProductShowcase from '../components/ProductShowcase';
